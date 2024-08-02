@@ -50,7 +50,7 @@
   
   nav .array-inputs #a_generate:hover {
     cursor: pointer;
-    transform: scale(1.1); /* Scale up the button */
+    transform: scale(1.1); /* Scales up the button */
   }
   
   
@@ -67,9 +67,9 @@
   }
   nav .header_right .algos {
     display: grid;
-    grid-template-columns: repeat(6, 1fr); /* Use 1fr for even spacing */
+    grid-template-columns: repeat(6, 1fr); /* Using 1fr for even spacing */
     place-content: center;
-    gap: 10px; /* Add gap for spacing between buttons */
+    gap: 10px; /* Adding gap for spacing between buttons */
     padding: 2% 0%;
   }
   
@@ -79,15 +79,15 @@
     color: white;
     outline: none;
     padding: 5% 0%;
-    font-size: medium; /* Decrease font size */
+    font-size: medium; /* Decreases font size */
     transition: border 0.3s ease, background-color 0.3s ease; /* Smooth transition for border and background color */
   }
   
   nav .header_right .algos button:hover {
     background-color: rgba(0, 0, 255, 0.2); /* Transparent blue background on hover */
     cursor: pointer;
-    border: 2px solid lightblue; /* Add light blue border on hover */
-    padding: 5% 0.5%; /* Adjust padding to maintain size with border */
+    border: 2px solid lightblue; /* Adds light blue border on hover */
+    padding: 5% 0.5%; /* Adjusts padding to maintain size with border */
     transform: scale(1.1);
   }
   
